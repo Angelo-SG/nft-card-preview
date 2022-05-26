@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(13, 25, 43);
+    font-family: Outfit;
+    font-size: 18px;
+}
+
+main.card {
+    width: 90vw;
+    height: 80vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    background-color: rgb(20, 37, 61);
+    border-radius: 20px;
+}
+
+main > section.card__image-section > figure.card__image-container {
+    padding: 7%;
+    max-height: 100%;
+}
+
+main > section.card__image-section > figure.card__image-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+main > section.card__details-section {
+    padding: 0 7%;
+}
+
+main > section.card__details-section > header.card__title {
+    margin-bottom: 7%;
+}
+
+main > section.card__details-section > header.card__title > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+main > section.card__details-section > p.card__text {
+    color: rgb(139, 172, 218);
+    margin-bottom: 7%;
+}
+
+main > section.card__details-section > section.card__extra-details-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > section.card__details-section > section.card__extra-details-section > div.card__offer-price ,
+main > section.card__details-section > section.card__extra-details-section > div.card__offer-time {
+    display: flex;
+    flex-direction: row;
+}
+
+main > section.card__details-section > section.card__extra-details-section > div.card__offer-price {
+    color: rgb(0, 255, 247);
+    font-weight: 600;
+}
+
+main > section.card__details-section > section.card__extra-details-section > div.card__offer-time {
+    color:rgb(139, 172, 218);
+    font-weight: 300;
+}
+
+main > section.card__details-section > section.card__extra-details-section > div.card__offer-price > p.card__offer-price , 
+main > section.card__details-section > section.card__extra-details-section > div.card__offer-time > p.card__offer-time {
+    padding-left: 0.7rem;
+}
+
+main > hr.card__divider {
+    width: 90%;
+    height: 2px;
+    margin: 7% auto;
+    background-color: rgb(47, 65, 91);
+    border: none;
+}
+
+main > footer {
+    display: flex;
+    align-items: center;
+    margin-left: 1.4rem;
+}
+
+main > footer > figure.card__avatar {
+    width: 10vw;
+}
+
+main > footer > figure.card__avatar > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+main > footer > p.card__credits {
+    color: rgb(139, 172, 218);
+    padding-left: 1.3rem;
+}
+
+main > footer > p.card__credits > strong {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}

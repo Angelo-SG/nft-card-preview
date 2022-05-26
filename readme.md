@@ -24,3 +24,24 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
+
+## My Process
+
+### Built with
+
+- Semantic HTML markup
+- CSS selectors
+- Flexbox
+
+### What I learned
+
+In this project I challenge myself to recap the basics of the web development: **`HTML5`** and **`CSS3`**.
+
+To make the page basis, I've used semantic **HTML5** markup, to improve the readability. To the appearance, the common CSS was used allied with BEM CSS pattern of nomenclature and CSS selectors. In short:
+
+- HTML5
+  - Semantic markup
+- CSS3
+  - BEM CSS pattern
+  - CSS selectors
+  - Flexbox

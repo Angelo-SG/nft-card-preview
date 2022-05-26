@@ -1,48 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <title>Equilibrium</title>
 </head>
 
 <body>
     <main class="card">
-        <section class="card__preview">
-            <img src="images/image-equilibrium.jpg" alt="Equilibrium">
+        <section class="card__image-section">
+            <figure class="card__image-container">
+                <img src="images/image-equilibrium.jpg" alt="Equilibrium">
+            </figure>
         </section>
-        <section class="card__product-info">
-            <header>
-                <h2 class="card__product-title">
-                    Equilibrium #3429
-                </h2>
+        <section class="card__details-section">
+            <header class="card__title">
+                <h1>Equilibrium #3429</h1>
             </header>
-            <p class="card__product-description">
+            <p class="card__text">
                 Our Equilibrium collection promotes balance and calm.
             </p>
-            <div class="card__product-sell-info">
-                <p class="card__product-price">
-                    <span class="card__price-icon">
+            <section class="card__extra-details-section">
+                <div class="card__offer-price">
+                    <figure class="card__offer-price-icon">
                         <img src="images/icon-ethereum.svg" alt="">
-                    </span>
-                    0.041 ETH
-                </p>
-                <p class="card__product-time-left">
-                    <span class="card__clock-icon">
+                    </figure>
+                    <p class="card__offer-price">
+                        0.041 ETH
+                    </p>
+                </div>
+                <div class="card__offer-time">
+                    <figure class="card__offer-time-icon">
                         <img src="images/icon-clock.svg" alt="">
-                    </span>
-                    3 days left
-                </p>
-            </div>
+                    </figure>
+                    <p class="card__offer-time">
+                        3 days left
+                    </p>
+                </div>
+            </section>
         </section>
-        <section class="card__salesman-info">
-            <img class="card__avatar" src="images/image-avatar.png" alt="">
+        <hr class="card__divider">
+        <footer class="card__author-section">
+            <figure class="card__avatar">
+                <img src="images/image-avatar.png" alt="Owner">
+            </figure>
             <p class="card__credits">
-                creation of <b>Jules Wyvern</b>
+                Creation of <strong>Jules Wyvern</strong>
             </p>
-        </section>
+        </footer>
     </main>
 </body>
 
